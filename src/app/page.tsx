@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
-import { TrackerHeader } from "./NavBar";
+import { TrackerHeader } from "@/components/NavBar";
 
 export default function LoginPage() {
   const router = useRouter();
