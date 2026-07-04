@@ -11,7 +11,8 @@ enum CommoType {
   NavLet
   CivilianLetter
   Orders
-  Others
+  Memorandum
+   Others
 }
 
 enum Status {

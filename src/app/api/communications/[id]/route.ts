@@ -7,7 +7,7 @@ import { computeMonthYear } from "@/lib/communications";
 const updateSchema = z.object({
   dateDrafted: z.string().optional(),
   commoType: z
-    .enum(["NavLet", "CivilianLetter", "Orders", "Others"])
+    .enum(["NavLet", "CivilianLetter", "Orders", "Memorandum", "Others"])
     .optional(),
   subject: z.string().min(1).optional(),
   recipient: z.string().min(1).optional(),

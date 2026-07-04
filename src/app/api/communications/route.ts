@@ -6,7 +6,7 @@ import { computeMonthYear, getNextLineNumber } from "@/lib/communications";
 
 const createSchema = z.object({
   dateDrafted: z.string(),
-  commoType: z.enum(["NavLet", "CivilianLetter", "Orders", "Others"]),
+  commoType: z.enum(["NavLet", "CivilianLetter", "Orders","Memorandum","Others"]),
   subject: z.string().min(1),
   recipient: z.string().min(1),
   draftedBy: z.string().min(1),

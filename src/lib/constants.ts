@@ -1,9 +1,10 @@
 export type Role = "ADMIN" | "USER";
 
 export const COMMO_TYPES = [
-  { value: "NavLet", label: "NavLet" },
+  { value: "NavLet", label: "Naval Letter" },
   { value: "CivilianLetter", label: "Civilian Letter" },
   { value: "Orders", label: "Orders" },
+  { value: "Memorandum", label: "Memorandum" },
   { value: "Others", label: "Others" },
 ] as const;
 

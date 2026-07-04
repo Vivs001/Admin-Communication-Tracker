@@ -11,7 +11,7 @@ interface Session {
 
 const links = [
   { href: "/dashboard", label: "Tracker" },
-  { href: "/communications/new", label: "New Letter" },
+  { href: "/communications/new", label: "New Outgoing" },
   { href: "/stats", label: "Monthly Stats" },
   { href: "/export", label: "Export" },
   { href: "/requests", label: "Edit Requests", adminOnly: true },
