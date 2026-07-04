@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { TrackerHeader } from "@/components/NavBar";
+import { NavBar, TrackerHeader } from "@/components/NavBar" ;
 import {
   commoTypeLabel,
   formatDateDrafted,

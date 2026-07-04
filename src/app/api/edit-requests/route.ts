@@ -5,7 +5,7 @@ import { prisma } from "@/lib/prisma";
 
 const createSchema = z.object({
   communicationId: z.string(),
-  requestedFields: z.record(z.unknown()),
+  requestedFields: z.record(z.any()),
   reason: z.string().optional(),
 });
 
