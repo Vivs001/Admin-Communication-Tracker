@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --tracker-yellow: #ffeb3b;
+  --tracker-red: #c62828;
+  --tracker-orange: #ff9800;
+  --tracker-blue: #bbdefb;
+  --tracker-green: #e8f5e9;
+}
+
+body {
+  @apply bg-gray-100 text-gray-900 antialiased;
+}
+
+.tracker-title-bar {
+  background: var(--tracker-yellow);
+}
+
+.tracker-instruction-bar {
+  background: var(--tracker-red);
+  color: white;
+}
+
+.tracker-month-bar {
+  background: var(--tracker-orange);
+}
+
+.tracker-table-header {
+  background: var(--tracker-blue);
+}
+
+.tracker-row-alt {
+  background: var(--tracker-green);
+}
